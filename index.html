@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+
+<html>
+
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Calculatrice</title>
+
+
+  </head>
+
+
+
+  <body>
+     
+
+     <div id="Calculator">
+        
+        <input readonly id="display">
+        <div id="keys">
+                <div class="operator-keys">
+
+                    <button class="operator-button" onclick=" appendTodisplay('+')" >+</button>
+                    <button class="operator-button" onclick=" appendTodisplay('-')">-</button>
+                    <button class="operator-button" onclick=" appendTodisplay('*')">*</button>
+                    <button class="operator-button" onclick=" appendTodisplay('/')">/</button>
+                    <button class="operator-button" onclick="clearDisplay()">C</button>
+                </div>
+
+
+                <div class="numbers-keys">
+                     
+                    <button class="number-button" onclick=" appendTodisplay('7')">7</button>
+                    <button class="number-button" onclick=" appendTodisplay('4')">4</button>
+                    <button class="number-button" onclick=" appendTodisplay('1')">1</button>
+                    <button class="number-button" onclick=" appendTodisplay('0')">0</button>
+
+                </div>
+
+
+                 <div class="numbers-keys">
+                     
+                    <button class="number-button" onclick=" appendTodisplay('8')">8</button>
+                    <button class="number-button" onclick=" appendTodisplay('5')">5</button>
+                    <button class="number-button" onclick=" appendTodisplay('2')">2</button>
+                    <button class="number-button" onclick=" appendTodisplay('.')">.</button>
+
+                </div>
+                
+                 <div class="numbers-keys">
+                     
+                    <button class="number-button" onclick=" appendTodisplay('9')">9</button>
+                    <button class="number-button" onclick=" appendTodisplay('6')">6</button>
+                    <button class="number-button" onclick=" appendTodisplay('3')">3</button>
+                    <button class="result-button" onclick="calculate()">=</button>
+
+                </div>
+
+          </div>
+
+
+
+
+
+
+     </div>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+     <script src="scripts.js"></script>
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
